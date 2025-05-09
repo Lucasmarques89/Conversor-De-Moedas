@@ -1,7 +1,73 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    background-color: black;
+    /* cor do fundo */
+}
+
+img {
+
+    /* colocou a imagem no centro */
+    width: 400px;
+    /*largura da imahem */
+    display: block;
+    /*ocupar uma linha sozinha*/
+    margin-left: auto;
+    /*esquerda*/
+    margin-right: auto;
+
+
 
 }
 
+.caixa {
+
+    background-color: white;
+    width: 500px;
+    padding: 15px;
+    margin-left: auto;
+    /*esquerda*/
+    margin-right: auto;
+    /*direita*/
+    margin-top: 20px;
+    border-radius: 20px;
+    /*aredondar as bordas*/
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+    /*tamnho do texto */
+    font-weight: 300;
+    /*grossura da fonte */
+}
+
+input {
+    width: 230px;
+    height: 35px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #e6e20c;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+   
+}
+
+
+
+button {
+    margin-top: 30px;
+    /*distanciamento do top */
+    height: 50px;
+    border-radius: 10px;
+    width: 100%;
+    /*para ocupar todo o espaço disponivel */
+    border: none;
+    background-color: #000000;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(228, 231, 35);
+}
